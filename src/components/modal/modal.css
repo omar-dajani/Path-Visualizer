@@ -1,0 +1,60 @@
+.modalbackwindow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modalwindow {
+    font-family: Calibre;
+    background-color: #0a192f;
+    border: 2px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    z-index: 100;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #ccd6f6;
+    font-size: 60px;
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+    color: #8892b0;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.modalwindow ul {
+    margin: 20px;
+}
+
+.modalwindow ul li {
+    font-size: 18px;
+    background-color: #0a192f;
+}
+
+#git-link {
+    color: white !important;
+    cursor: ne-resize;
+    transition: 0.5s;
+    text-decoration: none !important;
+}
+
+#git-link:hover {
+    color: #64ffda !important;
+}

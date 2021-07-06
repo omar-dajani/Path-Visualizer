@@ -1,0 +1,12 @@
+td {
+    padding: 12px;
+    border: 1px solid rgba(100, 255, 218, 0.3);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    border-top: 1px solid rgba(100, 255, 218, 0.3) !important;
+}
+
+.unvisited:hover {
+    background-color: rgba(100, 255, 218, 0.1) !important;
+    transition: 0.2s;
+}

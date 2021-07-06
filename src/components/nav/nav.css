@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'SFMono';
+    src: local('SFMono'), url(../../fonts/SFMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: local('SFMono'), url(../../fonts/Calibre-Regular.ttf) format('truetype');
+}
+
+.dropdown {
+    display:flex;
+    align-items: center;
+}
+
+#nav {
+    padding-bottom: 0;
+}
+
+Button {
+    margin-right: 5px;
+}
+
+Modal.Dialog {
+    z-index:9999;
+}
+
+#nav-title {
+    color: white;
+    font-family: Calibre;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.nav-text-green {
+    font-size: 13px;
+    color: #64ffda;
+}
+
+.nav-text, #algorithm-label, #speed-label {
+    color: white;
+}
+
+body {
+    font-size: 13px;
+    font-family: SFMono;
+    color: white; /* algorithm description text */
+    background-color: rgba(17, 34, 64, 1);
+}
+
+.stats {
+    font-size: 12px;
+}
+
+.nav-dropdown {
+    background: none !important;
+    border: none;
+}
+
+.nav-dropdown:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.nav-dropdown:hover {
+    color: #64ffda;
+    transition: 0.1s;
+}
+
+.nav-dropdown:hover #algorithm-label, .nav-dropdown:hover #speed-label{
+    color: #64ffda;
+    transition: 0.1s;
+}
+
+#footer {
+    margin-bottom: 10px;
+    color: #a8b2d1;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+#footer:hover {
+    color: #64ffda;
+}
+
+#footer a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#ne-resize {
+    cursor: ne-resize;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}

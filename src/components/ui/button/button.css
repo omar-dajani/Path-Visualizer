@@ -1,0 +1,32 @@
+#button-1 {
+    background: none;
+    border: 1px solid #64ffda;
+    font-family: "SFMono";
+    font-size: 12px;
+}
+
+#button-1:hover {
+    background: rgba(100, 255, 218, 0.1);
+}
+
+#button-1:focus {
+    box-shadow: none;
+}
+
+#button-2 {
+    font-size: 13px;
+    border: none;
+    background: none;
+}
+
+#button-2:focus {
+    box-shadow: none;
+}
+
+#button-2:hover {
+    color: #64ffda;
+}
+
+#button-2 .green-text {
+    color: #64ffda;
+}
